@@ -1,5 +1,5 @@
 <?php
-namespace Mediabroker\Core\View\Components\Buttons;
+namespace Silenzion\Prometheus\View\Components\Buttons;
 
 use Illuminate\View\Component;
 
@@ -14,6 +14,6 @@ $this->href = $href;
 
 public function render()
 {
-return view('core::admin.components.buttons.add');
+return view('prometheus::admin.components.buttons.add');
 }
 }

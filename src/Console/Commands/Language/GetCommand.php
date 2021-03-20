@@ -1,9 +1,9 @@
 <?php
 
-namespace Mediabroker\Core\Console\Commands\Language;
+namespace Silenzion\Prometheus\Console\Commands\Language;
 
 use Illuminate\Console\Command;
-use Mediabroker\Core\Services\LanguageService;
+use Silenzion\Prometheus\Services\LanguageService;
 
 class GetCommand extends Command
 {

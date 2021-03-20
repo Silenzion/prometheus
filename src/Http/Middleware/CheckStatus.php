@@ -5,7 +5,7 @@ namespace Voletale\Prometheus\Http\Middleware;
 use Auth;
 use Closure;
 use Illuminate\Http\Request;
-use Mediabroker\Core\Models\Admin;
+use Silenzion\Prometheus\Models\User;
 
 class CheckStatus
 {
@@ -18,7 +18,7 @@ class CheckStatus
      */
     public function handle($request, Closure $next)
     {
-        if (Auth::user()->status !== Admin::STATUS_ACTIVE) {
+        if (Auth::user()->status !== User::STATUS_ACTIVE) {
             Auth::logout();
             return redirect()->route('admin.login');
         }

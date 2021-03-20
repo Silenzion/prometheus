@@ -1,6 +1,6 @@
 <?php
 
-namespace Violetale\Prometheus\Console\Commands\Prometheus;
+namespace Silenzion\Prometheus\Console\Commands\Prometheus;
 
 use Illuminate\Console\Command;
 

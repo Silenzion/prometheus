@@ -1,15 +1,15 @@
 <?php
 
-namespace Violetale\Prometheus\Providers;
+namespace Silenzion\Prometheus\Providers;
 
 use Blade;
 use Illuminate\Database\Eloquent\Factory;
 use Illuminate\Support\ServiceProvider;
 use Voletale\Prometheus\Http\Middleware\CheckStatus;
-use Violetale\Prometheus\Console\Commands\Prometheus\InstallCommand;
-use Violetale\Prometheus\Console\Commands\Prometheus\SeedCommand;
-use Violetale\Prometheus\Providers\AuthServiceProvider;
-use Violetale\Prometheus\Providers\ViewServiceProvider;
+use Silenzion\Prometheus\Console\Commands\Prometheus\InstallCommand;
+use Silenzion\Prometheus\Console\Commands\Prometheus\SeedCommand;
+use Silenzion\Prometheus\Providers\AuthServiceProvider;
+use Silenzion\Prometheus\Providers\ViewServiceProvider;
 
 class PrometheusServiceProvider extends ServiceProvider
 {

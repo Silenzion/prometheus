@@ -1,9 +1,9 @@
 <?php
 
-namespace Violetale\Prometheus\Services;
+namespace Silenzion\Prometheus\Services;
 
 use Cache;
-use Violetale\Prometheus\Models\Redirect;
+use Silenzion\Prometheus\Models\Redirect;
 use Spatie\MissingPageRedirector\Redirector\Redirector;
 use Symfony\Component\HttpFoundation\Request;
 

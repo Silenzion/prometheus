@@ -1,11 +1,11 @@
 <?php
 
-namespace Violetale\Prometheus\Mail\Checkout;
+namespace Silenzion\Prometheus\Mail\Checkout;
 
 use Illuminate\Bus\Queueable;
 use Illuminate\Mail\Mailable;
 use Illuminate\Queue\SerializesModels;
-use Violetale\Prometheus\Models\Order\Order;
+use Silenzion\Prometheus\Models\Order\Order;
 
 class SuccessMail extends Mailable
 {

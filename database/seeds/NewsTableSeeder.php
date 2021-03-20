@@ -1,9 +1,9 @@
 <?php
 
-namespace Mediabroker\Core\Database\Seeds;
+namespace Silenzion\Prometheus\Database\Seeds;
 
 use Illuminate\Database\Seeder;
-use Mediabroker\Core\Models\News;
+use Silenzion\Prometheus\Models\News;
 
 class NewsTableSeeder extends Seeder
 {

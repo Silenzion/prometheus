@@ -4,8 +4,8 @@
 
 use Faker\Generator as Faker;
 use Illuminate\Database\Eloquent\Factory;
-use Violetale\Prometheus\Models\Language;
-use Violetale\Prometheus\Models\News;
+use Silenzion\Prometheus\Models\Language;
+use Silenzion\Prometheus\Models\News;
 
 /*
 |--------------------------------------------------------------------------

@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Mediabroker\Core\Contracts;
+namespace Silenzion\Prometheus\Contracts;
 
 interface ResourceInterface
 {

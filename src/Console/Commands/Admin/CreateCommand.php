@@ -1,11 +1,11 @@
 <?php
 
-namespace Mediabroker\Core\Console\Commands\Admin;
+namespace Silenzion\Prometheus\Console\Commands\Admin;
 
 use DomainException;
 use Illuminate\Console\Command;
-use Mediabroker\Core\Models\Admin;
-use Mediabroker\Core\Services\AdminService;
+use Silenzion\Prometheus\Models\User;
+use Silenzion\Prometheus\Services\AdminService;
 
 class CreateCommand extends Command
 {
@@ -40,7 +40,7 @@ class CreateCommand extends Command
             return false;
         }
 
-        Admin::newSuperAdmin($login, $password);
+        User::newSuperAdmin($login, $password);
         $this->info('Администратор успешно создан');
 
         return true;

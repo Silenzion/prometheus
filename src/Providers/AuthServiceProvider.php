@@ -1,10 +1,10 @@
 <?php
 
-namespace Violetale\Prometheus\Providers;
+namespace Silenzion\Prometheus\Providers;
 
 use Gate;
 use Illuminate\Foundation\Support\Providers\AuthServiceProvider as ServiceProvider;
-use Violetale\Prometheus\Models\User;
+use Silenzion\Prometheus\Models\User;
 
 class AuthServiceProvider extends ServiceProvider
 {

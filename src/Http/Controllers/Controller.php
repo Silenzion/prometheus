@@ -1,6 +1,6 @@
 <?php
 
-namespace Violetale\Prometheus\Http\Controllers;
+namespace Silenzion\Prometheus\Http\Controllers;
 
 use Illuminate\Foundation\Auth\Access\AuthorizesRequests;
 use Illuminate\Foundation\Bus\DispatchesJobs;

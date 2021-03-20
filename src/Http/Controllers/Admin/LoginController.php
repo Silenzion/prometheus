@@ -1,8 +1,8 @@
 <?php
 
-namespace Violetale\Prometheus\Http\Controllers\Admin;
+namespace Silenzion\Prometheus\Http\Controllers\Admin;
 
-use Violetale\Prometheus\Http\Controllers\Controller;
+use Silenzion\Prometheus\Http\Controllers\Controller;
 use Auth;
 use Illuminate\Foundation\Auth\ThrottlesLogins;
 use Illuminate\Http\Request;
@@ -19,7 +19,7 @@ class LoginController extends Controller
 
     public function login()
     {
-        return view("prometheus::admin.home.index");
+        return view("prometheus::admin.dashboards.main");
     }
 
     public function logout(Request $request)

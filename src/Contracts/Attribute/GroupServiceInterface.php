@@ -2,9 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Violetale\Prometheus\Contracts\Attribute;
+namespace Silenzion\Prometheus\Contracts\Attribute;
 
-use Violetale\Prometheus\Contracts\ResourceInterface;
+use Silenzion\Prometheus\Contracts\ResourceInterface;
 
 interface GroupServiceInterface extends ResourceInterface
 {

@@ -1,6 +1,6 @@
 <?php
 
-namespace Violetale\Prometheus\Models\Setting;
+namespace Silenzion\Prometheus\Models\Setting;
 
 use Illuminate\Database\Eloquent\Model;
 

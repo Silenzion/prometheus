@@ -1,15 +1,29 @@
 <?php
 
-namespace Mediabroker\Core\Http\Controllers\Admin;
+namespace Silenzion\Prometheus\Http\Controllers\Admin;
 
 use Illuminate\Http\Request;
-use Mediabroker\Core\Http\Controllers\Controller;
-use Mediabroker\Core\Http\Requests\Admin\ChangePasswordRequest;
-use Mediabroker\Core\Http\Requests\Admin\CreateRequest;
-use Mediabroker\Core\Http\Requests\Admin\UpdateRequest;
-use Mediabroker\Core\Models\Admin;
-use Mediabroker\Core\Services\AdminService;
+use Silenzion\Prometheus\Http\Controllers\Controller;
+
 
 class UserController extends Controller
 {
+    /** @var UserService $user */
+    private $user;
+
+    /**
+     * @param UserService $user
+     */
+    public function __construct(UserService $user)
+    {
+        $this->user = $user;
+    }
+    public function index(Request $request)
+    {
+        $query = Brand::orderBy('name');
+        $brands = $this->brand->filter($query, $request);
+        $statuses = Brand::statusList();
+
+        return view('core::admin.brands.index', compact('brands', 'statuses'));
+    }
 }

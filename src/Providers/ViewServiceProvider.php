@@ -1,6 +1,6 @@
 <?php
 
-namespace Violetale\Prometheus\Providers;
+namespace Silenzion\Prometheus\Providers;
 
 use Illuminate\Support\ServiceProvider;
 

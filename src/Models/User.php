@@ -1,6 +1,6 @@
 <?php
 
-namespace Violetale\Prometheus\Models;
+namespace Silenzion\Prometheus\Models;
 
 use Hash;
 use Illuminate\Database\Eloquent\SoftDeletes;

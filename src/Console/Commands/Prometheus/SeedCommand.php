@@ -1,9 +1,9 @@
 <?php
 
-namespace Violetale\Prometheus\Console\Commands\Prometheus;
+namespace Silenzion\Prometheus\Console\Commands\Prometheus;
 
 use Illuminate\Console\Command;
-use Mediabroker\Core\Database\Seeds\CoreSeeder;
+use Silenzion\Prometheus\Database\Seeds\CoreSeeder;
 
 class SeedCommand extends Command
 {

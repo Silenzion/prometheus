@@ -1,9 +1,9 @@
 <?php
 
-namespace Mediabroker\Core\Console\Commands\Admin;
+namespace Silenzion\Prometheus\Console\Commands\Admin;
 
 use Illuminate\Console\Command;
-use Mediabroker\Core\Models\Admin;
+use Silenzion\Prometheus\Models\User;
 
 class DeleteCommand extends Command
 {
@@ -15,8 +15,8 @@ class DeleteCommand extends Command
     {
         $login = $this->argument('login');
 
-        /** @var Admin $admin */
-        $admin = Admin::where('login', $login)->first();
+        /** @var User $admin */
+        $admin = User::where('login', $login)->first();
 
         if (is_null($admin)) {
             $this->error('Администратора с таким логином не существует');
