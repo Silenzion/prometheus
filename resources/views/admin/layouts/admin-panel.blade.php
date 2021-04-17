@@ -9,7 +9,7 @@
 
     <title>Админ-панель</title>
 
-    <link href="{{ asset('vendor/core/build/css/admin.css') }}" rel="stylesheet">
+    <link href="{{ asset('prometheus/build/css/admin.css') }}" rel="stylesheet">
 </head>
 
 <body class="hold-transition sidebar-mini pace-primary layout-fixed">
@@ -25,7 +25,7 @@
         <ul class="navbar-nav ml-auto">
             <li class="nav-item dropdown user-menu">
                 <a href="" class="nav-link dropdown-toggle" data-toggle="dropdown">
-                    <img src="{{ asset('vendor/core/build/img/no-user-image.jpg') }}"
+                    <img src="{{ asset('core/build/img/no-user-image.jpg') }}"
                          class="user-image img-circle elevation-2" alt="Аватар пользователя">
                     <span class="d-none d-md-inline">
 {{--                        {{ Auth::user()->full_name }}--}}
@@ -34,7 +34,7 @@
                 <ul class="dropdown-menu dropdown-menu-lg dropdown-menu-right">
                     <li class="user-header bg-primary h-auto">
                         <img
-                                src="{{ asset('vendor/core/build/img/no-user-image.jpg') }}"
+                                src="{{ asset('core/build/img/no-user-image.jpg') }}"
                                 class="img-circle elevation-2"
                                 alt="Аватар пользователя">
                         <p>
@@ -52,13 +52,13 @@
 {{--                        <a href="{{ route('admin.logout') }}"--}}
 {{--                           class="btn btn-default btn-flat float-right"--}}
 {{--                           onclick="event.preventDefault();--}}
-{{--                           document.getElementById('logout-form').submit();">--}}
+{{--                           document.getElementById('logout-Form').submit();">--}}
 {{--                            Выйти--}}
 {{--                        </a>--}}
-{{--                        <form id="logout-form" action="{{ route('admin.logout') }}" method="POST"--}}
+{{--                        <Form id="logout-Form" action="{{ route('admin.logout') }}" method="POST"--}}
 {{--                              class="d-none">--}}
 {{--                            @csrf--}}
-{{--                        </form>--}}
+{{--                        </Form>--}}
                     </li>
                 </ul>
             </li>
@@ -109,7 +109,7 @@
     </div>
 </div>
 
-<script src="{{ asset('vendor/core/build/js/admin.js') }}"></script>
+<script src="{{ asset('prometheus/build/js/admin.js') }}"></script>
 
 </body>
 

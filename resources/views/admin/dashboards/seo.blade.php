@@ -1,4 +1,4 @@
-@extends("prometheus::admin.layouts.admin_panel")
+@extends("prometheus::admin.layouts.admin-panel")
 @section("content")
     <div class="row">
         <div class="col-12 col-sm-6 col-md-3">

@@ -1,4 +1,4 @@
-@extends("prometheus::admin.layouts.admin_panel")
+@extends("prometheus::admin.layouts.admin-panel")
 @section("content")
     <div class="position-relative mb-4">
         <canvas id="visitors-chart" height="200"></canvas>

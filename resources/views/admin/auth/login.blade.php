@@ -8,7 +8,7 @@
     <form action="{{ route('admin.login.submit') }}" method="POST">
         @csrf
 
-        @include('core::admin.partials.alerts.failed')
+        @include('prometheus::admin.partials.alerts.failed')
 
         <div class="input-group mb-3">
             <input name="login" type="text"

@@ -4,7 +4,7 @@ namespace Silenzion\Prometheus\View\Components\Alerts;
 
 use Illuminate\View\Component;
 
-class Success extends Component
+class Error extends Component
 {
     public function render()
     {

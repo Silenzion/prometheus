@@ -15,7 +15,7 @@ class Redirect extends Model
 
     public $timestamps = false;
 
-    protected $fillable = ['from', 'to', 'status_code'];
+    protected $fillable = ['form', 'to', 'status_code'];
 
     protected $casts = [
         'status_code' => 'integer',
