@@ -1,5 +1,5 @@
 <?php
-
+//
 Route::group(['middleware' => ['web']], function () {
 
     /* User */
@@ -18,7 +18,7 @@ Route::group(['middleware' => ['web']], function () {
 
         /*Auth*/
         Route::get('/', 'LoginController@login')->name('admin');
-        Route::post('/logout', 'LoginController@logout')->name('logout');
+//        Route::post('/logout', 'LoginController@logout')->name('logout');
 
         /*Dashboards*/
         Route::prefix('dashboards')->group(function () {
@@ -51,7 +51,7 @@ Route::group(['middleware' => ['web']], function () {
         Route::post('/settings', 'SettingController@store')->name('settings.store');
 
     });
-
-    /*UI*/
-
+//
+//    /*UI*/
+//
 });

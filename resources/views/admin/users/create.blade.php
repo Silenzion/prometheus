@@ -2,7 +2,7 @@
 
 @section('header', 'Добавление пользователя')
 @section('content')
-    <form action="{{ route('admin.admins.store') }}" method="POST">
+    <form action="{{ route('admin.users.store') }}" method="POST">
         @csrf
         <x-section title="Основная информация" theme="primary">
             <x-input name="full_name" label="Полное имя *" :old="null" type="text"/>
